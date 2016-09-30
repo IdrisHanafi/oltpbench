@@ -153,7 +153,7 @@
                 
     <!--
 	Because this isn't an open source jar this is required:
-    $ mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.1.0 -Dpackaging=jar -Dfile=lib/ojdbc14-10.2.jar -DgeneratePom=true
+    $ mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc14 -Dversion=10.2.0.1.0 -Dpackaging=jar -Dfile=lib/ojdbc14.jar -DgeneratePom=true
 -->
     <dependency>
       <groupId>com.oracle</groupId>
